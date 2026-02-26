@@ -12,6 +12,6 @@ No real, external, or third-party systems were targeted.
 
 ---
 
-## 👤 Student Information
+## Student Information
 **Matric No:** 26030064 
 **Course:** TMS6064 / TMV6064 Cyber Security  
