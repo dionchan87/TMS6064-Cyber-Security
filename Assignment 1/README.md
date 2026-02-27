@@ -29,3 +29,22 @@ Nmap is a widely-used network scanning tool for discovering hosts, ports and ser
 ---
 
 ## Feature 1: Ping Scan
+![Nmap Ping Scan](screenshots/nmap1.png)
+
+**Explanation:**  
+A ping scan checks whether the target host is online without doing a full port scan.  
+Penetration testers use this to confirm the device is active before gathering deeper information.
+
+---
+
+## 🔹 Feature 2: Basic Port Scan
+
+screenshot
+
+**Explanation:**  
+A basic port scan identifies which ports are open on the machine.  
+This helps determine what services might be running and potentially vulnerable.
+
+---
+
+## 🔹 Feature 3: Service Version Detection
