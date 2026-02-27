@@ -16,16 +16,16 @@ No real-world systems, networks, or third-party IP addresses were targeted.
 Reconnaissance tools are used to collect information about a target before attempting any form of exploitation. In this task, **Nmap** was tested. Nmap is a widely-used network scanning tool for discovering hosts, ports, and services on a network.
 
 ### 1. Host Discovery (Ping Scan)
-![Nmap Host Discovery](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This feature identifies which devices are currently online without performing a heavy port scan, allowing for a faster and stealthier initial map of the target network.
+![Nmap Host Discovery](screenshot/nmap1.png)  
+This feature identifies which devices are currently online without performing a heavy port scan, allowing for a faster and stealthier initial map of the target network.
 
 ### 2. Service and Version Detection
-![Nmap Service Detection](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This scan gathers the version information for each open service to determine if the service is outdated or contains known vulnerabilities.
+![Nmap Service Detection](screenshot/nmap2.png)  
+This scan gathers the version information for each open service to determine if the service is outdated or contains known vulnerabilities.
 
 ### 3. OS Fingerprinting
-![Nmap OS Fingerprinting](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This command is used to identify the operating system (like Windows, Linux, or macOS) of a target device by analysing its unique network behaviour.
+![Nmap OS Fingerprinting](screenshot/nmap3.png)  
+This command is used to identify the operating system (like Windows, Linux, or macOS) of a target device by analysing its unique network behaviour.
 
 ---
 
@@ -33,20 +33,20 @@ Reconnaissance tools are used to collect information about a target before attem
 The Maintaining Access phase is critical for ensuring that a penetration tester can remain inside a target system for an extended period, even if the system is rebooted or the initial vulnerability is patched. For this task, **Weevely** was tested. Weevely is a stealthy PHP web shell used to maintain a persistent, telnet-like connection to a compromised web server.
 
 ### 1. Backdoor Agent Generation
-![Weevely Generation](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This creates a small, obfuscated PHP script that acts as the "agent." Its polymorphic nature makes it difficult for antivirus software to detect.
+![Weevely Generation](screenshot/weevely1.png)  
+This creates a small, obfuscated PHP script that acts as the "agent." Its polymorphic nature makes it difficult for antivirus software to detect.
 
 ### 2. Remote Terminal Connection
-![Weevely Connection](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This feature establishes a persistent communication channel over HTTP. By tunnelling the shell access through web traffic, it allows the tester to maintain access through firewalls that only allow web traffic, making the session appear as legitimate activity.
+![Weevely Connection](screenshot/weevely2.png)  
+This feature establishes a persistent communication channel over HTTP. By tunnelling the shell access through web traffic, it allows the tester to maintain access through firewalls that only allow web traffic, making the session appear as legitimate activity.
 
 ### 3. Internal System Enumeration (`:system_info`)
-![Weevely System Info](PASTE_LINK_TO_SCREENSHOT_HERE)
-**Why it is used:** This is used to profile the target environment by identifying server configurations, PHP restrictions, and operating system details necessary for further administration or post-exploitation.
+![Weevely System Info](screenshot/weevely3.png)  
+This is used to profile the target environment by identifying server configurations, PHP restrictions, and operating system details necessary for further administration or post-exploitation.
 
 ---
 
-## Task 4 — Comparison and Conclusion
+## Comparison and Conclusion
 
 ### Comparison of Tools
 
